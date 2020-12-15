@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Reliable news consumption </title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Scrolly -->
+  <link rel="stylesheet" href="css/cssanimation.min.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noticia+Text:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Highchart -->
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+</head>
+
+<body>
+
+<div class="newspaperImage">
+<div class="image">
+  <h1> Reliable news consumption </h1>
+  <img id='newspaper' src='images/newspaperImage.jpg' class='img-fluid' alt='Photo of newspapers.'>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
+<div class="col-md-8 mx-auto">
+  <div data-scrolly-down="fadeInLeft">
+<h2> Welcome! </h2>
+  <p> This page is intended to teach users about reliable news consumption. Learn about your own habits and how they could potentially be strengthened. </p>
+</div>
+
+<!-- Q&A -->
+
+<div data-scrolly-down="fadeInRight">
+<h2> Q&A </h2>
+<p>Answer questions specific to your news consumption habits to learn about the strengths and weaknesses of different methods. Click the different responses to each question to learn more. Information from <a href='https://www.forbes.com/sites/berlinschoolofcreativeleadership/2017/02/01/10-journalism-brands-where-you-will-find-real-facts-rather-than-alternative-facts/?sh=6ede3ca1e9b5' target='_blank'>Forbes</a>, <a href='https://www.newswise.com/articles/creating-critical-news-consumers' target='_blank'>Newswise</a> and <a href='https://www.poynter.org/educators-students/2016/9-questions-to-help-you-evaluate-the-credibility-of-news-sources/' target='_blank'>Poynter</a>. </p>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="container quiz">
+
+<div class="row justify-content-center" data-scrolly-top="blurInBottom" data-scrolly-down="blurInTop">
+
+<div class="col-lg-5 m-2 question">
+  <p><b>Where are you getting the information?</b></p>
+  <dl>
+    <dt>Newspaper, Radio, TV</dt>
+    <dd>These are mainstream forms of media consumption with a variety of focuses and skill sets. Unless somehow politically aligned, these three are reliable sources of information.</dd>
+    <dt>Social media</dt>
+    <dd>Social media can be a great place to find news, but can also be a great place to find content pretending to be news. Check the account or credit – does it come from a reliable source? If so, all set. If not, look a little deeper.</dd>
+    <dt>Unsure</dt>
+    <dd>Sometimes there can be a blurred line between the above, such as seeing a video reposted to Twitter or a Facebook post embedded in an article. In these cases, find the original source of information to know if it is reliable. Is it being used to have a certain effect?</dd>
+  </dl>
+  </div>
+
+<div class="col-lg-5 m-2 question">
+  <p><b>Is bias taken into account?</b></p>
+  <dl>
+    <dt>Source bias</dt>
+    <dd>Are all the necessary stakeholders included in the story. For example, stakeholders for a story about business development include developers, business owners, residents in the area, potential employees of the developing area and more. Each brings their own biases to the forefront and should be balanced against each other. Only including one side of a narrative could be biased.</dd>
+    <dt>News outlet bias</dt>
+    <dd>Some news outlets have a left or right political leaning, and they disseminate content in a way that reflects that. Familiarity with news outlets' reputations as well as journalists themselves will help a consumer know what they should or shouldn't trust. Fact checking sites such as PolitiFact can also help. </dd>
+    <dt>Consumer bias</dt>
+    <dd>Readers, viewers and listeners all approach media with their own biases. Personal biases or misconceptions can affect the way someone interprets the news, but it's important to recognize if the news outlet was thorough. Personal responses are valid, but they do not contradict the accuracy of a story.</dd>
+    </dl>
+</div>
+</div>
+
+<div class="row justify-content-center" data-scrolly-top="blurInBottom" data-scrolly-down="blurInTop">
+<div class="col-lg-5 m-2 question">
+  <p><b>Who are the sources in the story?</b></p>
+  <dl>
+    <dt>Experts in the field</dt>
+    <dd>If someone works in an industry or got the necessary degrees to be an expert in it, then they are typically a reliable source. However, their perspective could be biased, depending on the subject, and it is important for the news outlet to seek out more than just one expert. Typically, though, experts are trustworthy in news stories if their identities are verifiable.</dd>
+    <dt>People speaking from experience</dt>
+    <dd>If a story is about a certain lived experience, these are the best sources to hear from. For example, a story about minimum wage increasing in Florida could have someone talk personally about how it will impact them with an expert speaking on the big-picture economic effects.</dd>
+    <dt>Unsure</dt>
+    <dd>If sources are anonymous, read why. Sometimes news outlets will provide an explanation such as protecting someone from retribution. While rare, anonymous sources run the risk of being made up. </dd>
+  </dl>
+</div>
+
+<div class="col-lg-5 m-2 question">
+  <p><b>Does the publication have a code of ethics?</b></p>
+  <dl>
+    <dt>Yes</dt>
+    <dd>A publication having a code of ethics is a good sign. Oftentimes, they'll use the Society of Professional Journalists' code as a foundation and add specifics that relate to their cause.</dd>
+    <dt>No</dt>
+    <dd>If it doesn't have its own code, its track record should follow the Society of Professional Journalists or another outlet to be considered reliable. Previous reliability and reputation could be taken into account.</dd>
+    <dt>Unsure</dt>
+    <dd>You can find out if a news outlet has its own rules by typing the name and "code of ethics" in a search engine. It'll often be among the first few results.</dd>
+  </dl>
+</div>
+</div>
+
+<div class="row justify-content-center" data-scrolly-top="blurInBottom" data-scrolly-down="blurInTop">
+<div class="col-lg-5 m-2 question">
+  <p><b>Who funds the news outlet?</b></p>
+  <dl>
+    <dt>Subscriptions and ads</dt>
+    <dd>Paid news outlets typically provide some content free like a certain amount of articles or content on a certain topic, such as COVID-19. Subscribers get access to more or exclusive work. Ad revenue serves both print, online, TV and radio news.</dd>
+    <dt>Public funding</dt>
+    <dd>Nonprofit newsrooms rely on contributions and grants so that content is accessible to all as opposed to a subscription model that makes some content available to some. Examples of publicly funded newsrooms include NPR, ProPublica and The Texas Tribune. The nonprofit model is growing.</dd>
+    <dt>Unsure</dt>
+    <dd>A search engine can help figure this out. It is not always easily distinguishable on face value where funding comes from or how much it has to do with content produced.</dd>
+  </dl>
+</div>
+<div class="col-lg-5 m-2 question">
+  <p><b>Is it a national or local news outlet?</b></p>
+  <dl>
+    <dt>National</dt>
+    <dd>National outlets tend to look at the big picture. They might analyze trends across states, cover news when it gets to a big scale, or follow national political news. National outlets are typically reliable for big-picture stories, but don't always capture the nuance of something that occurred at a local scale.</dd>
+    <dt>Local</dt>
+    <dd>Local news outlets know local issues. Their journalists are the ones covering 12-hour long meetings and meeting community members, so they are typically reliable on topics that affect their municipality and the people within it. Local news is also quickly losing funding.</dd>
+    <dt>Unsure</dt>
+    <dd>Typically, if a news outlet has a city or area in its name, it is considered a local news outlet. Some of the large national outlets are The New York Times (print), CNN (TV), NPR (radio). Typically the website of the outlet will make clear what their coverage area is.</dd>
+  </dl>
+</div>
+
+
+</div>
+</div>
+
+<!-- highchart -->
+
+<div class="container">
+<div class='type row'>
+<div class="col-md-8 mx-auto">
+
+  <div data-scrolly-down="fadeInRight">
+  <h2>Data</h2>
+
+  <p>More Americans prefer to get their news online than ever before, including through websites, apps and social media. As part of the trend to online, employment in digital newsrooms is increasing.</p>
+  <p>While the trend to online makes content more accessible, it also means that people are wary of what they see. The Pew Research Center reported that among Americans who get news through social media, half stopped following an outlet because they thought it was sharing "fake news." </p>
+</div>
+
+      <div id="chart"></div>
+      <p class="highcharts-description">
+          This pie chart shows how Americans prefer to consume local news. The data comes from <a href='https://www.pewresearch.org/fact-tank/2019/09/11/key-findings-about-the-online-news-landscape-in-america/' target='_blank'>the Pew Research Center as of 2018.</a>
+      </p>
+</div>
+
+</div>
+</div>
+
+<!-- cliparts -->
+
+<div class="container" data-scrolly-down="fadeInLeft">
+<div class='type row mx-auto'>
+<div class="col-md-8 mx-auto">
+    <h2>Spotting misinformation</h2>
+    <p>The internet makes content more accessible to all audiences, but it also means that all audiences can create content. Misinformation can be created both unintentionally and very intentionally, so it's important as a reader and viewer to know how to spot it and prevent it from spreading further. </p>
+    <p> Click on each icon below to learn more about how to pinpoint reliable content. Information from <a href='https://www.psychologytoday.com/us/blog/unpacking-social-relations/202003/10-ways-spot-online-misinformation' target='_blank'>Psychology Today. </a> Clipart from <a href='https://thenounproject.com/' target='_blank'>The Noun Project. </a></p>
+</div>
+</div>
+</div>
+
+<div class="container" data-scrolly-top="blurInBottom" data-scrolly-down="blurInTop">
+<div class='type row justify-content-center'>
+<div class="col-lg-3 col-md-12">
+  <div class="clipart" id="camera">
+    <div class="theText" id="cameraText">
+      <p>Does the content feel like it has a hidden agenda? Are all valid sides included? Research the political or social slant of an organization or writer. Biased content presented as news could come from the opinion section or a non-news organization's press releases.</p>
+      <p> Find icon <a href='https://thenounproject.com/search/?q=camera&i=1120332' target='_blank'>here.</a></p>
+    </div>
+  </div>
+</div>
+
+  <div class="col-lg-3 col-md-12">
+  <div class="clipart" id="microphone">
+    <div class="theText" id="microphoneText">
+      <p>Good news includes a variety of experiences. Diversity can include race, ethnicity, gender, sexual orientation, age, disability, income level, job and more. Unique perspectives are ignored when diversity isn't taken into account in content and who creates the content.</p>
+      <p> Find icon <a href='https://thenounproject.com/search/?q=recorder&i=2416739' target='_blank'>here.</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-12">
+  <div class="clipart" id="print">
+    <div class="theText" id="printText">
+      <p>If content is full of spelling and gramatical errors, odds are it has fact errors too. Inaccuracies can be used to catch the reader's attention, along with fonts that are hard to read. Content not legible because it is written inaccessibly coudl also have red flags.</p>
+      <p> Find icon <a href='https://thenounproject.com/search/?q=newspaper&i=1975607' target='_blank'>here.</a></p>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+  <div class="container" data-scrolly-top="blurInBottom" data-scrolly-down="blurInTop">
+  <div class='type row justify-content-center' id='clip2'>
+  <div class="col-lg-3 md-12">
+  <div class="clipart" id="reader">
+    <div class="theText" id="readerText">
+      <p>How did the content make you feel? If it causes intense negative emotions, it could be meant to do just that. Some misinformation is meant to spark fear. If it made you content, make sure it's not an urban legend feel-good story. See how the information is confirmed and where else it's being shared.</p>
+      <p> Find icon <a href='https://thenounproject.com/search/?q=newspaper&i=1957343' target='_blank'>here.</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 md-12">
+  <div class="clipart" id="tv">
+    <div class="theText" id="tvText">
+      <p>If content is hard to believe, see if it is supported by evidence. What does the outlet do to demonstrate this is true? If it's still off, could the information have come from a video, text or photo meme?</p>
+      <p> Find icon <a href='https://thenounproject.com/search/?q=tv&i=768298' target='_blank'>here.</a></p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 mx-auto">
+<footer>
+  <p> This page was created by April Rubin for UF course Introduction to Web Apps (JOU3363). </p>
+  <p> Header photo by April Rubin. Find the Github repo here ##LINK##. </p>
+</footer>
+</div>
+
+<script src="https://code.highcharts.com/themes/grid-light.js"></script>
+<script src="js/main.js"></script>
+<script src="js/scrolly.min.js"></script>
+
+</body>
+</html>
